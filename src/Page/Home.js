@@ -3,6 +3,7 @@ import Todos from "../components/Todos"
 import ColorModeContainer from "../components/ColorModeContainer"
 import Navigation from '../components/Navigation'
 
+
 const Home = () => {
   return (
     <div classname="page-home">
