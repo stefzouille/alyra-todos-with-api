@@ -7,14 +7,14 @@ const AddTodoForm = () => {
   const dispatch = useTodosDispatch()
   const darkModeClass = darkMode ? "text-white bg-dark" : ""
 
-  const addTodo = (text) => {
-    const newTodo = {
-      text,
-      isCompleted: false,
-      id: uuidv4(),
-    }
-    dispatch({ type: "ADD", payload: newTodo })
-  }
+  // const addTodo = (text) => {
+  //   const newTodo = {
+  //     text,
+  //     isCompleted: false,
+  //     id: uuidv4(),
+  //   }
+  //   dispatch({ type: "ADD", payload: newTodo })
+  // }
 
   const handleFormSubmit = (event) => {
     event.preventDefault()
